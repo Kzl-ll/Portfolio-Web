@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="./css/aos.css">
     <title>Portfolio Web Kanzul</title>
 </head>
 <body class="poppins gradient-area" id="gradient">
-    <div class="fixed gap-5 right-5 bottom-5">
+    <!-- BUBBLE LINKEDIN AND GITHUB -->
+    <div class="fixed gap-5 right-5 bottom-5 z-10">
         <img class="rounded-full w-10 h-10 my-5 cursor-pointer hover:scale-125 transition-all duration-300" id="linkedin" src="./css/resources/image 1.png" alt="linkedin">
         <img class="rounded-full w-10 h-10 my-5 cursor-pointer hover:scale-125 transition-all duration-300" id="github" src="./css/resources/image 2.png" alt="github">
     </div>
+    <!-- NAVBAR -->
     <div class="w-full h-full flex flex-col" id="main">
         <div class="w-full h-20 flex poppins-bold justify-between items-center p-5 shadow drop-shadow-lg" id="navbar">
             <h1>Kanzul</h1>
@@ -25,6 +28,7 @@
                 <button class="text-left hover:bg-gray-100 rounded-xl p-4 transition-all duration-300 cursor-pointer" id="experience">Experience</button>
             </div>
         </div>
+        <!-- WELCOME PAGE -->
         <div class="w-full h-180 flex flex-col items-center">
             <div class="circle3"></div>
             <div class="flex justify-center items-end poppins-bold text-center text-7xl mt-70 cursor-default">
@@ -37,8 +41,9 @@
             <img class="w-75 h-75" src="./css/resources/SilhoutteMan.png" alt="SilhoutteMan">
         </div>
     </div>
+    <!-- CONTENT -->
     <div class="w-full flex h-auto p-10 lg:p-30 ">
-        <div class="w-full h-full flex justify-center items-center">
+        <div class="w-full h-full flex justify-center items-center" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <div class="w-75 h-65 p-5 lg:w-125 lg:h-125 bg-black text-center text-white lg:p-20 hover:bg-white hover:text-black hover:scale-105 transition-all duration-300 rounded-lg">
                 <h1 class="mt-10 text-xl xl:text-4xl poppins-bold lg:mt-25 ">I'm Kanzul Jawad Murod As Shofi</h1>
                 <button class="bg-white text-black text-sm poppins-bold rounded-full px-5 py-2 mt-5 transition-all duration-300 hover:bg-black hover:text-white cursor-pointer">Contact</button>
@@ -49,8 +54,8 @@
             </div>
         </div>
     </div>
-    <div class="w-full flex h-auto p-10 lg:p-30 ">
-        <div class="w-full h-full flex justify-center items-center">
+    <div class="w-full flex h-auto p-10 lg:p-30 " >
+        <div class="w-full h-full flex justify-center items-center" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <div class="w-60 h-55 overflow-auto p-5 lg:w-100 lg:h-85 relative lg:p-10">
                 <h1 class="text-lg lg:text-3xl poppins-bold">STATE UNIVERSITY OF SURABAYA</h1>
                 <p>I'm really interested to programmed something, that is my daily life for studying variable languange of programming, i have a ambition to graduated this with a high marks and have been ambition too for make my studies finished as soon as possible</p>
@@ -62,6 +67,7 @@
 
         </div>
     </div>
+    <script src="./js/aos.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>

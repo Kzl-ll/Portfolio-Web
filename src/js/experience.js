@@ -1,3 +1,10 @@
+document.addEventListener("DOMContentLoaded", function() {
+  AOS.init({
+    duration: 500,
+    
+  });
+});
+
 let alreadyclick = false;
 document.getElementById('nav').addEventListener('click', function (e) {
     if(!alreadyclick){

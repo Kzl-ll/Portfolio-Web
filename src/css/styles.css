@@ -64,7 +64,9 @@
   transition: transform 2s ease-out;
 }
 
-
+html{
+  scroll-behavior: smooth;
+}
 
 @keyframes move_one {
       0% { transform: translate(0, 250px); }
@@ -81,7 +83,7 @@
     .circle {
       position: absolute;
       border-radius: 50%;
-      background: radial-gradient(circle, rgba(9, 220, 83, 0.8), rgba(255, 255, 255, 0));
+      background: radial-gradient(circle, rgb(9, 220, 83), rgba(255, 255, 255, 0.533));
       width: 150px;
       height: 150px;
       filter: blur(30px);
@@ -91,7 +93,7 @@
     .circle2 {
       position: absolute;
       border-radius: 50%;
-      background: radial-gradient(circle, rgba(125, 26, 225, 0.621), rgba(255, 255, 255, 0));
+      background: radial-gradient(circle, rgb(125, 26, 225), rgba(255, 255, 255, 0.507));
       width: 150px;
       height: 150px;
       filter: blur(30px);
@@ -102,7 +104,7 @@
     .circle3 {
       position: absolute;
       border-radius: 50%;
-      background: radial-gradient(circle, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0));
+      background: radial-gradient(circle, rgb(255, 255, 255), rgba(255, 255, 255, 0.515));
       width: 150px;
       height: 150px;
       filter: blur(30px);
